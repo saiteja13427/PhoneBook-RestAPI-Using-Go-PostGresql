@@ -7,6 +7,6 @@ A simple PhoneBook RestAPI using
 To Run the API 
 1. Clone the Repo ``` $ git clone https://github.com/saiteja13427/PhoneBook-RestAPI-Using-Go-PostGresql.git```
 2. Create a Postgres DataBase with the name Login
-3. Update the DataBase credentials in .env file
+3. Update the DataBase credentials in [.env](https://github.com/saiteja13427/PhoneBook-RestAPI-Using-Go-PostGresql/blob/master/.env) file
 4. Lastly ```go run main.go```
 
