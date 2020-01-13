@@ -1,14 +1,14 @@
 package app
 
 import (
-	"fmt"
-	"net/http"
+	"PhoneBook/models"
 	u "PhoneBook/utils"
+	"context"
+	"fmt"
+	jwt "github.com/dgrijalva/jwt-go"
+	"net/http"
 	"os"
 	"strings"
-	jwt "github.com/dgrijalva/jwt-go"
-	"go-contacts/models"
-	"context"
 )
 //MiddleWare Implementation - Middleware which will intercept every requqest to check the presence of JWT
 //Checking for Valid JWT(JSON Web Token) and responding accordingly
